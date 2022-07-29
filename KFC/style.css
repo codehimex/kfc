@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+body{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+nav h1{
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-size: 42px;
+    color: red;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 40px;
+    transition: 0.6s;
+}
+nav ul li a:hover, .Home{
+    background-color: red;
+    padding: 7px 11px;
+    border-radius: 1rem;
+    color: white;
+    transition: 0.6s;
+}
+#Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+}
+#Home .data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data .social{
+    font-size: 30px;
+    margin-right: 48px;
+    line-height: 60px;
+}
+.data .txt h1{
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+.data .txt span{
+    color: red;
+}
+.data .txt p{
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+.data .txt button{
+    background-color: red;
+    border: red 2px solid;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.img img{
+    width: 380px;
+}
+
+
+
+
+
+
+
